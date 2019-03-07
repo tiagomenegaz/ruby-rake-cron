@@ -17,4 +17,7 @@
 #   runner "AnotherModel.prune_old_records"
 # end
 
-# Learn more: http://github.com/javan/whenever
+every 5.minutes do
+  rake 'example:first:print_hello'
+  rake 'example:second:write_file'
+end
