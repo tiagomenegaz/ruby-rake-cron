@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem 'rake', '~> 12.3', '>= 12.3.1'
 gem 'whenever', '~> 0.9.7'
 
 group :development, :test do
